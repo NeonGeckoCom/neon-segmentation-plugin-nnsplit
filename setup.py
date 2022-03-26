@@ -11,7 +11,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=['neon_segmentation_plugin_nnsplit'],
-    install_requires=["ovos-plugin-manager", "nnsplit~=0.2"],
+    install_requires=["ovos-plugin-manager~=0.0.16", "nnsplit~=0.2"],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
